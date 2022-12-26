@@ -1,0 +1,42 @@
+div.Home{
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}div.Home h1{
+    text-align: center;
+    padding-top: 203px;
+    font-size: 100px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}ul li.nav-item{
+    margin-left: 40px;
+    justify-content: space-between;
+}nav{
+    height: 80px;
+    
+}i.fa{
+    width: 60px;
+    height: 40px;
+}@media only screen and (max-width: 1328px){
+    div.Home h1{
+        font-size: 70px;
+        font-weight: 0;
+    }
+}@media only screen and (max-width: 921px){
+    div.Home h1{
+        font-size: 50px;
+        
+    }div.Home{
+        background-size: 100%px 1000px;
+    }
+}@media only screen and (max-width: 667px){
+    div.Home{
+        background-size: 100%px 700px;
+    }
+}@media only screen and (max-width: 557px){
+    div.about img{
+        width: 50%;
+        height: 50%;
+    }
+}
